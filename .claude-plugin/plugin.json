@@ -2,5 +2,8 @@
   "name": "darryls-claude-plugin",
   "version": "0.1.0",
   "description": "Code review, audits, and parallel task execution workflow. Bundles slash commands and reviewer subagents.",
-  "author": "Darryl T. Agostinelli"
+  "author": {
+    "name": "Darryl T. Agostinelli",
+    "email": "dagostinelli@gmail.com"
+  }
 }
