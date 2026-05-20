@@ -8,7 +8,7 @@ Inside Claude Code:
 
 ```
 /plugin marketplace add dagostinelli/darryls-claude-plugin
-/plugin install darryls-claude-plugin@darryls-claude-plugin
+/plugin install darrylagostinelli@darryls-claude-plugin
 ```
 
 The first command adds this GitHub repo as a plugin marketplace; the second installs the plugin from it.
