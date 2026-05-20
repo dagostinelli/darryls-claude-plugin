@@ -2,6 +2,17 @@
 
 A Claude Code plugin bundling the commands and subagents I actually use.
 
+## Install
+
+Inside Claude Code:
+
+```
+/plugin marketplace add dagostinelli/darryls-claude-plugin
+/plugin install darryls-claude-plugin@darryls-claude-plugin
+```
+
+The first command adds this GitHub repo as a plugin marketplace; the second installs the plugin from it.
+
 ## Commands
 
 - `/code-review` — Fan out to specialized reviewer subagents in parallel for a comprehensive review.
