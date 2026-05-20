@@ -1,12 +1,15 @@
 {
-  "marketplace": "darryls-claude-plugin",
+  "name": "darryls-claude-plugin",
+  "owner": {
+    "name": "Darryl T. Agostinelli",
+    "email": "dagostinelli@gmail.com"
+  },
+  "description": "Code review, audits, and parallel task execution workflow. Bundles slash commands and reviewer subagents.",
   "plugins": [
     {
-      "id": "darryls-claude-plugin",
-      "name": "Darryl's Claude Plugin",
-      "version": "0.1.0",
-      "description": "Code review, audits, and parallel task execution workflow. Bundles slash commands and reviewer subagents.",
-      "path": "./"
+      "name": "darryls-claude-plugin",
+      "source": "./",
+      "description": "Code review, audits, and parallel task execution workflow. Bundles slash commands and reviewer subagents."
     }
   ]
 }
