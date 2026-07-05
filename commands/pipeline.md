@@ -22,13 +22,13 @@ The user will provide a proposal file path (e.g. `docs/proposals/JOB_SYSTEM.md`)
    - Is this phase still worth doing? Consider: does it still make sense architecturally? Has anything else changed that makes it redundant or premature?
    - Present your reasoning to the user. If not worthy, mark it as such in the proposal and loop back to step 3.
 
-5. **WBS** — run `/wbs` to decompose this phase into beads
+5. **WBS** — run `/darrylagostinelli:wbs` to decompose this phase into beads
 
 6. **Blitz → review → fix loop**
-   - Run `/blitz` to execute all ready beads in parallel
-   - Run `/code-review` (which runs all audits internally)
-   - If any findings were fixed, go back to `/blitz` and repeat
-   - Exit this loop only when `/code-review` comes back clean
+   - Run `/darrylagostinelli:blitz` to execute all ready beads in parallel
+   - Run `/darrylagostinelli:code-review` (which runs all audits internally)
+   - If any findings were fixed, go back to `/darrylagostinelli:blitz` and repeat
+   - Exit this loop only when `/darrylagostinelli:code-review` comes back clean
 
 7. **Stop for human review**
    - Present a summary of what was built and what the audits found
@@ -43,5 +43,5 @@ The user will provide a proposal file path (e.g. `docs/proposals/JOB_SYSTEM.md`)
 ## Important
 
 - One phase at a time — never start the next phase without human sign-off on the current one
-- Bead closure happens inside `/blitz` — confirm with the user after each task
+- Bead closure happens inside `/darrylagostinelli:blitz` — confirm with the user after each task
 - Check `AGENTS.md` (if present) for build, test, and lint commands specific to this project

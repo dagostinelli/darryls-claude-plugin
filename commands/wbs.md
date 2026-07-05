@@ -57,7 +57,7 @@ Build a work-breakdown structure and store it in beads (`bd`). Set up, extend, o
    ```
    Show the user the full product breakdown and what's actionable now.
 
-10. If there are ready tasks, suggest running `/blitz` to parallelize them.
+10. If there are ready tasks, suggest running `/darrylagostinelli:blitz` to parallelize them.
 
 ## Important
 
